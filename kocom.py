@@ -4,7 +4,7 @@
 '''
  python kocom script
 
- : forked from script written by 룰루해피, 따분, Susu Daddy
+ : forked from script written by kyet, 룰루해피, 따분, Susu Daddy
 
  apt-get install mosquitto
  python3 -m pip install pyserial

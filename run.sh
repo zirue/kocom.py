@@ -2,8 +2,8 @@
 
 SHARE_DIR=/share/kocom
 
+mkdir -p $SHARE_DIR
 if [ ! -f $SHARE_DIR/kocom.conf ]; then
-	mkdir $SHARE_DIR
 	mv /kocom.conf $SHARE_DIR
 fi
 

@@ -599,6 +599,7 @@ def publish_discovery(dev, sub=''):
             'val_tpl': '{{ value_json.state }}',
             'pl_on': 'on',
             'pl_off': 'off',
+            'ic': 'mdi:gas-cylinder',
             'qos': 0,
             'uniq_id': '{}_{}_{}'.format('kocom', 'wallpad', dev),
             'device': {
@@ -622,6 +623,7 @@ def publish_discovery(dev, sub=''):
             'val_tpl': "{{ value_json.state }}",
             'pl_on': 'on',
             'pl_off': 'off',
+            'ic': 'mdi:elevator',
             'qos': 0,
             'uniq_id': '{}_{}_{}'.format('kocom', 'wallpad', dev),
             'device': {
